@@ -1,0 +1,53 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mamun{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /*   transform: rotate(30turn);
+    transform: rotate(.2turn);
+     transform: rotate(30deg);
+    transform: rotate(-30deg);
+    transform: rotateX(60deg);
+    transform: rotateY(60deg); 
+    transform: scaleX(2);
+    transform: scaley(2);
+    transform: scale(1.5);
+    transform: scale(.5);
+    transform: scale(.2);
+    transform: scale(2,4); 
+        /* coment */
+        transform: translate(50px);Ksa ksa barābara 50% sōra jābā Right;
+        transform: translate(-50px);Ksa ksa barābara 50% sōra jābā Left;
+         transform: translatey(50px);Nordika,Narḍikā;
+        transform: translatey(-50px);upordika;
+        transform: translatey(-50px,-50px);
+         
+        /* coment shep a poriboton */
+        transform: skew(30deg);
+        transform: skewx(30deg);
+        transform: skewy(30deg);
+        transform: skewy(-30deg);
+        transform: skewy(30deg,20deg); */
+   
+} 
+.mamun:hover{
+    cursor: pointer;
+    transition: all 2s linear;
+    transform: rotateX(360deg);
+    transform: rotateY(360deg);
+    transform: rotate(-360deg);
+}
+
+
